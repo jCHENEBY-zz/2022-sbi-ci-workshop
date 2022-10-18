@@ -55,7 +55,7 @@ jobs:
         # TODO: use the actions/download-artifact@v3 action to restore the artifact in second-job
         #       docs: https://github.com/actions/download-artifact#usage
         with:
-          message_1 # TODO: specify the name of the artifact to be restored
+          name: message_1 # TODO: specify the name of the artifact to be restored
 
       - name: Ensure message.txt exists
         # Useful for debugging
