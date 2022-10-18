@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix: 3.10
         os: [ 'ubuntu-20.04', 'macos-12', 'windows-latest' ]
-        python-ver: [ '3.9', '3.10']
+        python-ver: [ '3.9', '3.10' ]
         # TODO: Update the job matrix such that the Setup Python step
         #       sets up Python 3.9 and 3.10 instead of 3.7
         #
