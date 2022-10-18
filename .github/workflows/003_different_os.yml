@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Where am I running?
         run: uname
+  
+
 
   # TODO: Add a job for macOS
   #
@@ -20,6 +22,11 @@ jobs:
   #
   # Obs 2: The uname command works on macOS too.
   #        Feel free to also try out other commands.
+  macsOS-job:
+    runs-on: macos-12
+    steps:
+      - name: Where am I running?
+        run: uname
 
   windows-job:
     runs-on: windows-latest
